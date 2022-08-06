@@ -9,11 +9,12 @@
 }
 ul h1 {
   float:left;
+  margin-left: 10%;
 }
 ul {
   list-style-type: none;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -29,7 +30,7 @@ li a {
   color:black;
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 38px;
   text-decoration: none;
 }
 
@@ -69,4 +70,28 @@ li a:hover {
   width: 90%;
   margin:auto;
   padding-top: 9rem;
+}
+.dumb-star {
+  z-index: 1;
+  float:right;
+  height: 400px;
+  margin-top: 5%;
+}
+footer {
+  display:flex;
+  background-color:#EF5200;
+  color:white;
+  width:100%;
+  height: 16vh;
+}
+footer div {
+  width: 80%;
+  margin:auto;
+}
+footer h1 {
+  display: inline-block;
+}
+footer p {
+  text-align:right;
+  float:right;
 }

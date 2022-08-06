@@ -14,7 +14,7 @@ export default function Home() {
 
       <ul>
         <h1>Jamboree</h1>
-        <li><a class="special-button"href="#">Open Chatroom</a></li>
+        <li><a class="special-button" href="#">Open Chatroom</a></li>
         <li><a href="#">Contact</a></li>
 
         <li><a href="#">Features</a></li>
@@ -22,23 +22,22 @@ export default function Home() {
       </ul>
 
       <div class="hero">
+        <img class="dumb-star" src="https://media.discordapp.net/attachments/1004992490547458162/1005616220109819934/dumb-star.png"></img>
         <div class="sub-hero">
-        <h1>One time, never again</h1>
-        <h2> Say what's on your mind</h2>
+          <h1>One time, never again</h1>
+          <h2> Say what's on your mind</h2>
           <br></br>
-        <a>Start Chatting</a>
-          </div>
+          <a>Start Chatting</a>
+        </div>
       </div>
+      <br></br><br></br>
+      <footer>
+        <br></br>
+        <div><h1>Jamboree</h1>
+          <p>Copyright © 2022 Jamboree, All Rights Reserved</p></div>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Copyright © 2022 Jamboree, All Rights Reserved
 
-        </a>
+
       </footer>
     </div>
   )
