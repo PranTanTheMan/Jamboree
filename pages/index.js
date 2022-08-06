@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { FiLock } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -30,7 +31,19 @@ export default function Home() {
           <a>Start Chatting</a>
         </div>
       </div>
-      <br></br><br></br>
+     <div class="private-rooms">
+       <FiLock />
+       <h1>Private rooms</h1>
+       <p>Grab your smores, and talk <br></br>
+freely. No logging, just all the 
+pricacy you need   </p>
+     </div>
+
+
+
+
+
+      <br></br>
       <footer>
         <br></br>
         <div><h1>Jamboree</h1>

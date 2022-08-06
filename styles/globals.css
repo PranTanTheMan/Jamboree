@@ -95,3 +95,15 @@ footer p {
   text-align:right;
   float:right;
 }
+.private-rooms {
+  text-align:center;
+  width: 300px;
+  margin:auto;
+}
+.private-rooms h1 {
+  font-size: 3rem;
+}
+.private-rooms p {
+  font-size: 1.3rem;
+  font-weight: 10;
+}
