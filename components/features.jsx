@@ -9,7 +9,6 @@ export default function Features() {
     <>
       <Box
         bgColor={"#F1F1F1"}
-        w={"100%"}
         pt={"3rem"}
         id="Features"
         pb={"13rem"}
@@ -39,7 +38,7 @@ export default function Features() {
           <Flex
             flexDirection={"column"}
             pt={"166px"}
-            pl={"105px"}
+            pl={"75px"}
             alignItems={"center"}
             pr={"10rem"}
           >
@@ -66,8 +65,8 @@ export default function Features() {
           </Flex>
           <img
             className="share-image"
-            width="1030px"
-            height="580"
+            width="600px"
+            height="337"
             src="https://media.discordapp.net/attachments/1005723750488080475/1005723761384886272/unknown.png"
             alt="pogger-image"
           />
@@ -88,7 +87,7 @@ export default function Features() {
             A variety of emojis
           </Text>
         </Flex>
-        <HStack flexDirection={"row"} spacing={"140px"} px={"165px"}>
+        <HStack flexDirection={"row"} spacing={"50px"} px={"65px"}>
           <Box
             width={"725px"}
             height={"780px"}

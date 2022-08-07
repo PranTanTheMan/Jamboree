@@ -34,7 +34,7 @@ export default function Navbar() {
           <a className="navbar-link" href="/contact">
             Contact
           </a>
-          <Button w={"255px"} h={"51px"} bgColor="primary" borderRadius={32.5}>
+          <Button w={"255px"} h={"51px"} bgColor="primary" borderRadius={32.5} _hover={{  }} >
             <Text
               fontWeight={"600"}
               fontSize={"16px"}
