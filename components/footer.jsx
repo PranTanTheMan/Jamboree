@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
-import { Flex, Text, Spacer, Icon } from "@chakra-ui/react";
+import { Flex, Text, Spacer, Icon, Link, Button } from "@chakra-ui/react";
 
 export default function Footer() {
   return (
@@ -12,15 +12,18 @@ export default function Footer() {
           w={"100%"}
           justifyContent={"center"}
           alignItems={"center"}
+          pb={"2rem"}
         >
-          <Text
-            className="Logo"
+          <a
+            className="footer-logo"
             fontWeight={"600"}
             fontSize={"36px"}
             color="headerColor"
+            variant="unstyled"
+            href="/"
           >
             Jamboree
-          </Text>
+          </a>
           <Spacer />
           <Text fontWeight={"400"} fontSize={"24px"} color={"headerColor"}>
             Copyright <Icon as={AiOutlineCopyrightCircle} /> 2022 Jamboree. All

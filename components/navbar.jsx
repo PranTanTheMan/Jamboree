@@ -21,21 +21,19 @@ export default function Navbar() {
         w={"100%"}
         justifyContent={"center"}
         alignItems={"center"}
+        id="navbar"
       >
-        <Text
-          className="Logo"
-          fontWeight={"600"}
-          fontSize={"36px"}
-          color="primary"
-        >
+        <a className="Logo" href="/">
           Jamboree
-        </Text>
+        </a>
         <Spacer />
         <HStack className="pages" spacing={"85px"}>
           <a className="navbar-link" href="#Features">
             Features
           </a>
-          <a className="navbar-link">Contact</a>
+          <a className="navbar-link" href="/contact">
+            Contact
+          </a>
           <Button w={"255px"} h={"51px"} bgColor="primary" borderRadius={32.5}>
             <Text
               fontWeight={"600"}

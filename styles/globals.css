@@ -64,3 +64,15 @@ a.navbar-link {
 .share-image {
   padding-top: 9rem;
 }
+
+.footer-logo {
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+}
+
+.Logo {
+  font-weight: 600;
+  font-size: 36px;
+  color: #ef5200;
+}
