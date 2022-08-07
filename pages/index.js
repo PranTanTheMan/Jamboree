@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { FiLock } from 'react-icons/fa';
+import { FiLock } from 'react-icons/fi';
 
 export default function Home() {
   return (
@@ -12,33 +12,37 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
       <ul>
         <h1>Jamboree</h1>
-        <li><a class="special-button" href="#">Open Chatroom</a></li>
+        <li><a className="special-button" href="#">Open Chatroom</a></li>
         <li><a href="#">Contact</a></li>
 
         <li><a href="#">Features</a></li>
-
       </ul>
 
-      <div class="hero">
-        <img class="dumb-star" src="https://media.discordapp.net/attachments/1004992490547458162/1005616220109819934/dumb-star.png"></img>
-        <div class="sub-hero">
+      <div className="hero">
+        <img className="dumb-star" src="https://media.discordapp.net/attachments/1004992490547458162/1005616220109819934/dumb-star.png"></img>
+        <div className="sub-hero">
           <h1>One time, never again</h1>
           <h2> Say what's on your mind</h2>
           <br></br>
           <a>Start Chatting</a>
         </div>
       </div>
-     <div class="private-rooms">
-       <FiLock />
-       <h1>Private rooms</h1>
-       <p>Grab your smores, and talk <br></br>
-freely. No logging, just all the 
-pricacy you need   </p>
-     </div>
+      <div className="private-rooms">
+        <div class="lock-shit-container"><FiLock class="lock-shit"/></div>
 
+        <h1>Private rooms</h1>
+        <p>Grab your smores, and talk <br></br>
+          freely. No logging, just all the
+          privacy you need</p>
+      </div>
+     <div class="unthinkable-shit-container">
+       <h1>Share the unthinkable</h1>
+       <p>Jamboree offers free unlimited 
+data sharing. Share all your secret moments
+with no interfering with your privacy</p>
+     </div>
 
 
 
