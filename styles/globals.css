@@ -1,136 +1,66 @@
 * {
-  padding:0;
-  margin:0;
-}
-
-@font-face {
-        font-family: 'Neue Metana';
-        font-style: normal;
-        font-weight: 300 ; 
-        font-display: swap;
-        src: url('/public/fonts/NeueMetanaNext-SemiBold.otf') format('opentype');
-      }
-
-@font-face {
-  font-family: 'Neue Metana';
-  font-style: normal;
-  font-weight: 300 ; 
-        font-display: swap;
-        src: url('/public/fonts/NeueMetanaNext-SemiBold.otf') format('opentype');
-}
-
-body{
-  background-color:#F1F1F1;
-  color:#EF5200;
-  text-decoration:none;
-  font-family: "Neue Metana", sans-serif;
-}
-ul h1 {
-  float:left;
-  margin-left: 10%;
-}
-ul {
-  list-style-type: none;
-  padding-top: 15px !important;
-  padding-bottom: 15px !important;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: white;
+  scroll-behavior: smooth;
 }
 
-li {
+.dumb-start {
+  z-index: 1;
   float: right;
-  
+  height: 400px;
+  margin-top: 5%;
 }
 
-li a {
-  color:black;
-  display: block;
-  text-align: center;
-  padding: 14px 38px;
-  text-decoration: none;
-}
-
-li a:hover {
-  color:orange;
-}
-.special-button {
-  color: white;
-  background: #EF5200;
-  border-radius: 20px;
-  margin-right: 110px;
-  padding: 10px 25px 10px 25px;
-}
 .hero {
-  margin:auto;
-  text-align:left;
-  color:#FAF19A;
-  background-color:#EF5200;
-  height: 80vh;
+  margin: auto;
+  text-align: left;
+  color: #faf19a;
+  background-color: #ef5200;
+  height: 90vh;
 }
 .hero h1 {
-  font-size:3.7rem;
-  padding:10px;
+  font-size: 64px;
+  padding: 10px;
+
+  color: transparent !important;
+
+  letter-spacing: 0.1em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #faf19a;
+  filter: drop-shadow(4px 4px 1px #a59f67);
 }
 .hero h2 {
-  padding:10px;
+  padding: 10px;
+  font-size: 36px;
 }
 .hero a {
-  color: #EF5200;
-    background-color:#FAF19A;
-   padding: 8px 30px 8px 30px;
-  border-radius: 15px;
-  margin:10px;
-  
+  color: #ef5200;
+  background-color: #faf19a;
+  padding: 8px 30px 8px 30px;
+  border-radius: 53px;
+  margin: 10px;
+  width: 315px;
+  height: 74px;
 }
 .sub-hero {
   width: 90%;
-  margin:auto;
+  margin: auto;
   padding-top: 9rem;
 }
 .dumb-star {
   z-index: 1;
-  float:right;
-  height: 400px;
+  float: right;
+  height: 600px;
   margin-top: 5%;
 }
-footer {
-  display:flex;
-  background-color:#EF5200;
-  color:white;
-  width:100%;
-  height: 16vh;
-}
-footer div {
-  width: 80%;
-  margin:auto;
-}
-footer h1 {
-  display: inline-block;
-}
-footer p {
-  text-align:right;
-  float:right;
-}
-.private-rooms {
-  text-align:center;
-  width: 300px;
-  margin:auto;
-}
-.private-rooms h1 {
-  font-size: 3rem;
-}
-.private-rooms p {
-  font-size: 1.3rem;
-  font-weight: 10;
-}
-.lock-shit-container {
-  margin-top: 2rem;
-  margin-bottom:1rem;
-}
-.lock-shit {
-width:70px;
-height:70px;
 
+a.navbar-link {
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.share-image {
+  padding-top: 9rem;
 }
