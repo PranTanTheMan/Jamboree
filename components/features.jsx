@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Flex, Text, Icon, HStack, Button } from "@chakra-ui/react";
 import { FiLock } from "react-icons/fi";
 import { BsFileEarmark, BsTelephone, BsChat } from "react-icons/bs";
+import Image from 'next/image'
 import { AiOutlineCamera } from "react-icons/ai";
 
 export default function Features() {
@@ -34,10 +35,10 @@ export default function Features() {
           </Text>
         </Flex>
 
-        <Flex justifyContent={"flex-start"} alignItems={"center"}>
+        <Flex justifyContent={"flex-start"} alignItems={"flex-end"} className="feature-2">
           <Flex
             flexDirection={"column"}
-            pt={"166px"}
+            pt={"146px"}
             pl={"75px"}
             alignItems={"center"}
             pr={"10rem"}
@@ -63,11 +64,11 @@ export default function Features() {
               moments with no interfering with your privacy
             </Text>
           </Flex>
-          <img
+          <Image
             className="share-image"
             width="600px"
-            height="337"
-            src="https://media.discordapp.net/attachments/1005723750488080475/1005723761384886272/unknown.png"
+            height="337px"
+            src="/Group950.png"
             alt="pogger-image"
           />
         </Flex>

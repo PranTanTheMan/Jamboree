@@ -77,3 +77,14 @@ a.navbar-link {
   font-size: 36px;
   color: #ef5200;
 }
+
+.feature-2 {
+  margin: auto;
+}
+
+.open-chatroom {
+  width: 255px;
+  height: 51px;
+  background-color: #ef5200 !important;
+  border-radius: 32.5px;
+}

@@ -11,6 +11,11 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title> Jamboree | Homepage </title>
+        <meta name="description" content="Jamboree is the most secure and coziest way of hanging out with your friends and colleagues." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <Hero />
       <Features />

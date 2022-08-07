@@ -9,8 +9,8 @@ import {
   Spacer,
   Box,
   HStack,
-  Link,
 } from "@chakra-ui/react";
+import Link from 'next/link';
 
 export default function Navbar() {
   return (
@@ -34,15 +34,16 @@ export default function Navbar() {
           <a className="navbar-link" href="/contact">
             Contact
           </a>
-          <Button w={"255px"} h={"51px"} bgColor="primary" borderRadius={32.5} _hover={{  }} >
-            <Text
+          <Button _hover={{ bgColor: 'secondary', color: 'primary', transition: 'all 0.7s ease-in-out' }} w={"255px"} h={"51px"} bgColor="primary" borderRadius={32.5}  >
+            <a
+              href="https://jamboree1.siddharthdugg.repl.co/"
               fontWeight={"600"}
               fontSize={"16px"}
               lineHeight={"17px"}
               color={"#E7E7E7"}
             >
               Open Chatroom
-            </Text>
+            </a>
           </Button>
         </HStack>
       </Flex>
